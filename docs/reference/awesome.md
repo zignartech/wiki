@@ -1,8 +1,5 @@
 ---
 template: overrides/main.html
-tags:
-  - Reference
-  - Navigation
 ---
 
 # Customizing Navigation

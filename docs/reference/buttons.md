@@ -1,7 +1,5 @@
 ---
 template: overrides/main.html
-tags:
-  - Reference
 ---
 
 # Buttons
