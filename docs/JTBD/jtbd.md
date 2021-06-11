@@ -1,7 +1,5 @@
 ---
 template: overrides/main.html
-tags:
-  - JTBD
 ---
 
 # What Is Jobs-to-be-Done?
