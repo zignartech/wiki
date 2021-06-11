@@ -1,0 +1,6 @@
+nav:
+    - ...
+    - PDF Support: pdf.md
+    - variables.md
+    - Customizing Navigation: awesome.md
+

@@ -1,0 +1,183 @@
+# Copyright (c) 2021 Zignar Technologies
+
+# Permission is hereby granted, free of charge, to any person obtaining a copy
+# of this software and associated documentation files (the "Software"), to
+# deal in the Software without restriction, including without limitation the
+# rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+# sell copies of the Software, and to permit persons to whom the Software is
+# furnished to do so, subject to the following conditions:
+
+# The above copyright notice and this permission notice shall be included in
+# all copies or substantial portions of the Software.
+
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+# FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+# FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+# IN THE SOFTWARE.
+
+# Project information
+site_name: Zignar Technologies Docs
+site_url: https://docs.zignar.io/
+site_author: Jorge Christian Gelso
+site_description: Developing cyber-physical systems for Industry 4.0 requires great documentation. Our goal is to guarantee functionality and interoperability between the World, IoT, Software & AI, and DLT. We WILL make it happen !!!
+
+# Repository
+repo_name: Zignar Docs
+repo_url: https://github.com/Zignar-Technologies/wiki
+edit_uri: /Zignar-Technologies/wiki/tree/main/docs
+
+# Copyright
+copyright: Copyright &copy; 2021 Zignar Technologies
+
+# Configuration
+theme:
+  name: null
+  custom_dir: material
+  logo: assets/zignarlogo.png
+
+  # Static files
+  static_templates:
+    - 404.html
+
+  # Don't include MkDocs' JavaScript
+  include_search_page: false
+  search_index_only: true
+
+  # Default values, taken from mkdocs_theme.yml
+  language: en
+  features:
+    # - navigation.sections
+    - navigation.tabs
+    - navigation.instant
+    - navigation.indexes
+    # - navigation.expand
+    # - navigation.tracking
+    - navigation.top
+    - toc.integrate
+    - header.autohide
+
+  # Content tabs on a page will be linked
+    - content.tabs.link
+
+  # Enables search extra features
+    - search.suggest
+    - search.highlight
+    - search.share
+
+  # Defines the Color Scheme for the website
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: red
+      accent: red
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+
+  # Defines the Font Scheme for the website  
+  font:
+    text: Montserrat
+    code: Source Code Pro
+
+  # Defines the favicon for the website  
+  favicon: assets/favicon.svg
+  icon:
+    logo: logo
+
+# Plugins
+plugins:
+  - search
+  - awesome-pages
+  # - tags:
+  #     tags_file: tags.md
+  - exclude
+  - redirects:
+  - minify:
+      minify_html: true
+  # - git-revision-date
+  - macros
+            
+# Customization
+extra:
+  social:
+#     - icon: fontawesome/brands/github
+#       link: 
+#     - icon: fontawesome/brands/gitter
+#       link: 
+#     - icon: fontawesome/brands/docker
+#       link: 
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/zignartech
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/zignar-technologies/
+    - icon: fontawesome/brands/github
+      link: https://github.com/zignar-technologies
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/pEBc77shev
+  generator: false
+  
+# Extensions
+markdown_extensions:
+  - admonition
+  - abbr
+  - attr_list
+  - def_list
+  - footnotes
+  - meta
+  - md_in_html
+  - mdx_math
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid-experimental
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+# Extra Javascripts
+extra_javascript:
+# Allowing Mathematical Notations
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+# Automatic Sorting Tables
+  - https://cdnjs.cloudflare.com/ajax/libs/tablesort/5.2.1/tablesort.min.js
+  - javascripts/tables.js
+# STL Files Viewer
+  - javascripts/stl_viewer/stl_viewer.min.js
+# Extra .js files
+  - javascripts/extra.js
+
+# Extra Stylesheets
+extra_css:
+  - stylesheets/extra.css
+  
