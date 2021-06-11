@@ -98,13 +98,11 @@ theme:
 plugins:
   - search
   - awesome-pages
-  # - tags:
-  #     tags_file: tags.md
   - exclude
   - redirects:
   - minify:
       minify_html: true
-  # - git-revision-date
+  - git-revision-date
   - macros
             
 # Customization
