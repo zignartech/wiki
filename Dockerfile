@@ -20,6 +20,9 @@
 
 FROM python:3.9.2-alpine3.13
 
+# Build-time flags
+ARG WITH_PLUGINS=true
+
 # Environment variables
 ENV PACKAGES=/usr/local/lib/python3.9/site-packages
 ENV PYTHONDONTWRITEBYTECODE=1
@@ -31,8 +34,8 @@ WORKDIR /tmp
 COPY material material
 COPY MANIFEST.in MANIFEST.in
 COPY package.json package.json
-COPY requirements.txt requirements.txt
 COPY README.md README.md
+COPY requirements.txt requirements.txt
 COPY setup.py setup.py
 
 # Perform build and cleanup artifacts and caches
@@ -44,7 +47,6 @@ RUN \
     openssh \
   && apk add --no-cache --virtual .build gcc musl-dev \
   && pip install --no-cache-dir . \
-  && pip install --upgrade pip \
   && apk del .build gcc musl-dev \
   && \
     for theme in mkdocs readthedocs; do \

@@ -99,12 +99,10 @@ plugins:
   - search
   - awesome-pages
   - exclude
-  - redirects:
+  - redirects
   - minify:
       minify_html: true
-  - git-revision-date
-  - macros
-            
+
 # Customization
 extra:
   social:
@@ -133,7 +131,6 @@ markdown_extensions:
   - footnotes
   - meta
   - md_in_html
-  - mdx_math
   - toc:
       permalink: true
   - pymdownx.arithmatex:
@@ -146,6 +143,7 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight
   - pymdownx.inlinehilite
   - pymdownx.keys
   - pymdownx.magiclink:
@@ -178,4 +176,3 @@ extra_javascript:
 # Extra Stylesheets
 extra_css:
   - stylesheets/extra.css
-  

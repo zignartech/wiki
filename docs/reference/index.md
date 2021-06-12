@@ -38,6 +38,10 @@ Because the documentation system is based on Markdown files, any editor like VSC
 To achieve this, a live preview server that can also be accessed locally with a Web Browser, so that changes can be previewed as the documentation is written. The server will automatically rebuild the site upon saving your document. This server can be run directly by building a Docker image and running it.
 ## Installation
 
+<!-- TODO Add python local development integration, using an empty linux virtual machine to test
+TODO Add the installation instructions along with docker installation. There might be necessary to add
+TODO the following line after the installation
+TODO export PATH=$HOME/.local/bin:$PATH -->
 ### with docker
 
 To run the local preview server with docker:
