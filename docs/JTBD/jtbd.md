@@ -2,7 +2,7 @@
 template: overrides/main.html
 ---
 
-# What Is Jobs-to-be-Done?
+# What is Jobs-to-be-Done?
 
 *Article by [Tony Ulwick][1] (Mar 1, 2017)*
 
