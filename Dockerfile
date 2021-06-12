@@ -20,9 +20,6 @@
 
 FROM python:3.9.2-alpine3.13
 
-# Build-time flags
-ARG WITH_PLUGINS=true
-
 # Environment variables
 ENV PACKAGES=/usr/local/lib/python3.9/site-packages
 ENV PYTHONDONTWRITEBYTECODE=1
@@ -46,7 +43,7 @@ RUN \
     git-fast-import \
     openssh \
   && apk add --no-cache --virtual .build gcc musl-dev \
-  && pip install --no-cache-dir . \
+  && python3 -m pip install --no-cache-dir . \
   && apk del .build gcc musl-dev \
   && \
     for theme in mkdocs readthedocs; do \
