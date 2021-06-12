@@ -49,14 +49,11 @@ theme:
   # Default values, taken from mkdocs_theme.yml
   language: en
   features:
-    # - navigation.sections
     - navigation.tabs
     - navigation.instant
     - navigation.indexes
-    # - navigation.expand
-    # - navigation.tracking
+    - navigation.tracking
     - navigation.top
-    - toc.integrate
     - header.autohide
 
   # Content tabs on a page will be linked
@@ -72,13 +69,13 @@ theme:
     - media: "(prefers-color-scheme: light)"
       scheme: default
       primary: indigo
-      accent: indigo
+      accent: red
       toggle:
         icon: material/toggle-switch-off-outline
         name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: red
+      primary: light blue
       accent: red
       toggle:
         icon: material/toggle-switch
@@ -93,6 +90,7 @@ theme:
   favicon: assets/favicon.svg
   icon:
     logo: logo
+    repo: fontawesome/brands/github-square
 
 # Plugins
 plugins:
@@ -102,6 +100,10 @@ plugins:
   - redirects
   - minify:
       minify_html: true
+  - git-revision-date-localized:
+      type: iso_datetime
+      enable_creation_date: true
+
 
 # Customization
 extra:
