@@ -103,6 +103,7 @@ plugins:
   - git-revision-date-localized:
       type: iso_datetime
       enable_creation_date: true
+  - git-revision-date
 
 
 # Customization
