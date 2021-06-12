@@ -1,4 +1,4 @@
-![Zignar Logo](docs/assets/images/zignar_logo_white.svg)
+![Zignar Logo](docs/assets/images/zignar_logo_transparent.png)
 
 # Getting Started
 

@@ -3,7 +3,7 @@ template: overrides/main.html
 title: Getting Started
 ---
 
-![Zignar Logo](../assets/images/zignar_logo_white.svg)
+![Zignar Logo](../assets/images/zignar_logo_transparent.png)
 
 # Getting Started
 
