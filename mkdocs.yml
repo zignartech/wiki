@@ -96,7 +96,7 @@ theme:
 plugins:
   - search
   - awesome-pages
-  - exclude
+  # - exclude
   - redirects
   - minify:
       minify_html: true
