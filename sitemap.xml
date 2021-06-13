@@ -191,6 +191,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://docs.zignar.io/reference/basic-markdown/</loc>
+         <lastmod>2021-06-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://docs.zignar.io/reference/buttons/</loc>
          <lastmod>2021-06-13</lastmod>
          <changefreq>daily</changefreq>
