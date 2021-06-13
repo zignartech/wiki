@@ -69,13 +69,13 @@ After the image is built, the server can be started it with the following comman
 
 #### Unix, Powershell, macOS
 
-    ``` bash linenums="1"
+    ``` bash
     docker run -itd -p 8000:8000 --name ZignarDocs -v ${PWD}:/docs zignardocs
     ```
 
 #### Windows
 
-    ``` bash linenums="1"
+    ``` bash
     docker run -itd -p 8000:8000 --name ZignarDocs -v ${PWD}:/docs zignardocs
     ```
 
