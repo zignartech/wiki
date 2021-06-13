@@ -62,7 +62,7 @@ After the image is built, the server can be started it with the following comman
 === "Windows"
 
     ``` bash linenums="1"
-    docker run -itd -p 8000:8000 --name ZignarDocs -v ${PWD}:/docs zignardocs
+    docker run -itd -p 8000:8000 --name ZignarDocs -v %cd%:/docs zignardocs
     ```
 
 Now, the live server can be accessed from a local browser at address `localhost:8000`
