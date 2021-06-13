@@ -6,6 +6,8 @@ template: overrides/main.html
 
 Nearly all Markdown applications support the basic syntax outlined in John Gruber’s original design document. There are minor variations and discrepancies between Markdown processors — those are noted inline wherever possible.
 
+This page only describes Basic Markdown. However, Zigar Docs has en extended syntax module that allows for even richer Markdown documents. Please, refer to the other chapters in this Reference Guide to find out all the amazing options.
+
 ## Markdown Formatting
 
 ### Headings
@@ -28,7 +30,7 @@ To create paragraphs, use a blank line to separate one or more lines of text.
 You can use two or more spaces (commonly referred to as “trailing whitespace”) for line breaks in nearly every Markdown application, but it’s controversial. It’s hard to see trailing whitespace in an editor, and many people accidentally or intentionally put two spaces after every sentence. For this reason, you may want to use something other than trailing whitespace for line breaks. Fortunately, there is another option supported by nearly every Markdown application: the `<br>` HTML tag.
 
 For compatibility, use trailing white space or the `<br>` HTML tag at the end of the line.
-    
+
 ### Emphasis
 
 To bold text, add two asterisks or underscores before and after a word or phrase. To bold the middle of a word for emphasis, add two asterisks without spaces around the letters.
@@ -37,15 +39,17 @@ To italicize text, add one asterisk or underscore before and after a word or phr
 
 To emphasize text with bold and italics at the same time, add three asterisks or underscores before and after a word or phrase. To bold and italicize the middle of a word for emphasis, add three asterisks without spaces around the letters.
 
+_Example_:
+
     *This text will be italic*
     _This will also be italic_
-    
+
     **This text will be bold**
     __This will also be bold__
-    
+
     _You **can** combine them_
-    
-Result:
+
+_Result_:
 
 *This text will be italic*
 
@@ -59,6 +63,8 @@ _You **can** combine them_
 
 ### Lists
 
+_Example_:
+
 **Inordered:**
 
     * Milk
@@ -66,7 +72,7 @@ _You **can** combine them_
         * Wholegrain
     * Butter
 
-Result:
+_Result_:
 
 * Milk
 * Bread
@@ -75,17 +81,21 @@ Result:
 
 **Ordered:**
 
+_Example_:
+
     1. Tidy the kitchen  
     2. Prepare ingredients  
     3. Cook delicious things
 
-Result:
+_Result_:
 
 1. Tidy the kitchen  
 2. Prepare ingredients  
 3. Cook delicious things
 
 ### Images
+
+To add an image, add an exclamation mark (!), followed by alt text in brackets, and the path or URL to the image asset in parentheses. You can optionally add a title after the URL in the parentheses.
 
     ![Alt Text](url)
 
@@ -101,14 +111,43 @@ _Result_:
 
 ![m'lady](http://i.imgur.com/v8IVDka.jpg)
 
+#### Linking Images
+
+To add a link to an image, enclose the Markdown for the image in brackets, and then add the link in parentheses.
+
+```
+[![An old rock in the desert](../assets/shiprock.jpg "Shiprock, New Mexico by Beau Rogers")](https://www.flickr.com/photos/beaurogers/31833779864/in/photolist-Qv3rFw-34mt9F-a9Cmfy-5Ha3Zi-9msKdv-o3hgjr-hWpUte-4WMsJ1-KUQ8N-deshUb-vssBD-6CQci6-8AFCiD-zsJWT-nNfsgB-dPDwZJ-bn9JGn-5HtSXY-6CUhAL-a4UTXB-ugPum-KUPSo-fBLNm-6CUmpy-4WMsc9-8a7D3T-83KJev-6CQ2bK-nNusHJ-a78rQH-nw3NvT-7aq2qf-8wwBso-3nNceh-ugSKP-4mh4kh-bbeeqH-a7biME-q3PtTf-brFpgb-cg38zw-bXMZc-nJPELD-f58Lmo-bXMYG-bz8AAi-bxNtNT-bXMYi-bXMY6-bXMYv)
+```
+
+The rendered output looks like this:
+
+[![An old rock in the desert](../assets/shiprock.jpg "Shiprock, New Mexico by Beau Rogers")](https://www.flickr.com/photos/beaurogers/31833779864/in/photolist-Qv3rFw-34mt9F-a9Cmfy-5Ha3Zi-9msKdv-o3hgjr-hWpUte-4WMsJ1-KUQ8N-deshUb-vssBD-6CQci6-8AFCiD-zsJWT-nNfsgB-dPDwZJ-bn9JGn-5HtSXY-6CUhAL-a4UTXB-ugPum-KUPSo-fBLNm-6CUmpy-4WMsc9-8a7D3T-83KJev-6CQ2bK-nNusHJ-a78rQH-nw3NvT-7aq2qf-8wwBso-3nNceh-ugSKP-4mh4kh-bbeeqH-a7biME-q3PtTf-brFpgb-cg38zw-bXMZc-nJPELD-f58Lmo-bXMYG-bz8AAi-bxNtNT-bXMYi-bXMY6-bXMYv)
 
 ### Links
 
-    [link](http://example.com)
-    
-Result:
+To create a link, enclose the link text in brackets (e.g., `[Duck Duck Go]`) and then follow it immediately with the URL in parentheses (e.g., `(https://duckduckgo.com)`).
 
-[link](http://example.com)
+_Example_:
+
+    [This is a link](http://example.com)
+
+_Result_:
+
+[This is a link](http://example.com)
+
+#### Adding Titles
+
+You can optionally add a title for a link. This will appear as a tooltip when the user hovers over the link. To add a title, enclose it in parentheses after the URL.
+
+_Example_:
+
+```
+My favorite search engine is [Duck Duck Go](https://duckduckgo.com "The best search engine for privacy").
+```
+
+_Result_:
+
+My favorite search engine is [Duck Duck Go](https://duckduckgo.com "The best search engine for privacy").
 
 ### Blockquotes
 
@@ -116,7 +155,8 @@ To create a blockquote, add a > in front of a paragraph.
 
 _Example_:
 
-``` As Kanye West said:
+```
+    As Kanye West said:
     > We're living the future so
     > the present is our past.
 ```
@@ -129,9 +169,10 @@ As Kanye West said:
 
 #### Blockquotes with Multiple Paragraphs
 
-``` > Dorothy followed her through many of the beautiful rooms in her castle.
->
-> The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.
+```
+    > Dorothy followed her through many of the beautiful rooms in her castle.
+    >
+    > The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.
 ```
 
 > Dorothy followed her through many of the beautiful rooms in her castle.
@@ -140,20 +181,47 @@ As Kanye West said:
 
 Blockquotes can contain multiple paragraphs. Add a > on the blank lines between the paragraphs.
 
+Blockquotes can also be nested. Add a >> in front of the paragraph you want to nest.
+
+_Example_:
+
+```
+> Dorothy followed her through many of the beautiful rooms in her castle.
+>
+>> The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.
+```
+
+_Result_:
+
+> Dorothy followed her through many of the beautiful rooms in her castle.
+>
+>> The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.
 
 ### Horizontal Rules
 
-    ---
+_Example_:
 
-Result:
+```
+---
+```
+
+_Result_:
 
 ---
 
 ### Code Snippets
 
-    Indenting by 4 spaces will turn an entire paragraph into a code-block.
+Indenting by 4 spaces will turn an entire paragraph into a code-block.
 
-Result:
+_Example_:
+
+```
+    .my-link {
+    text-decoration: underline;
+    }
+```
+
+_Result_:
 
     .my-link {
         text-decoration: underline;
@@ -161,76 +229,63 @@ Result:
 
 ### Reference Lists & Titles
 
-    **The quick brown [fox][1], jumped over the lazy [dog][2].**
+_Example_:
 
-    [1]: https://en.wikipedia.org/wiki/Fox "Wikipedia: Fox"
-    [2]: https://en.wikipedia.org/wiki/Dog "Wikipedia: Dog"
-
-Result:
-
+```
 **The quick brown [fox][1], jumped over the lazy [dog][2].**
+
+[1]: https://en.wikipedia.org/wiki/Fox "Wikipedia: Fox"
+[2]: https://en.wikipedia.org/wiki/Dog "Wikipedia: Dog"
+```
+
+_Result_:
+
+**The quick brown [fox][1], jumped over the lazy [dog][2].**   
 
 [1]: https://en.wikipedia.org/wiki/Fox "Wikipedia: Fox"
 [2]: https://en.wikipedia.org/wiki/Dog "Wikipedia: Dog"
 
 ### Escaping
 
-    \*literally\*
+_Example_:
 
-Result:
+```
+\*literally\*
+```
+
+_Result_:
 
 \*literally\*
 
 ### Embedding HTML
 
-    <button class="button-save large">Big Fat Button</button>
+_Example_:
 
-Result:
+```
+<button class="button-save large">Big Fat Button</button>
+```
+
+_Result_:
 
 <button class="button-save large">Big Fat Button</button>
 
-## Advanced Markdown
-
-Note: Some syntax which is not standard to native Markdown. They're extensions of the language.
-
-### Strike-throughs
-
-    ~~deleted words~~
-
-Result:
-
-~~deleted words~~
-
-### Highlights
-
-Work in [Ghost](https://ghost.org/):
-
-    ==oooh fancy==
-
-Result:
-
-==oooh fancy==
-
-### Automatic Links
-
-    https://ghost.org
-
-Result:
-
-https://ghost.org
-
 ### Markdown Footnotes
 
+_Example_:
+
 Work in [Ghost](https://ghost.org/):
 
-    The quick brown fox[^1] jumped over the lazy dog[^2].
-
-    [^1]: Foxes are red
-    [^2]: Dogs are usually not red
-
-Result:
-
+```
 The quick brown fox[^1] jumped over the lazy dog[^2].
+
+[^1]: Foxes are red
+[^2]: Dogs are usually not red
+```
+
+_Result_:
+
+The quick brown fox[^1] jumped over the lazy dog[^2].  
+(Please scroll to the end of the page, and you will see a footnote)
 
 [^1]: Foxes are red
 [^2]: Dogs are usually not red
@@ -239,32 +294,40 @@ The quick brown fox[^1] jumped over the lazy dog[^2].
 
 ### Syntax Highlighting
 
-    ```javascript
+_Example_:
+
+````
+``` javascript
     function fancyAlert(arg) {
       if(arg) {
         $.facebox({div:'#foo'})
       }
     }
-    ```
+```
+````
 
-Result:
+_Result_:
 
-```javascript
-function fancyAlert(arg) {
-  if(arg) {
-    $.facebox({div:'#foo'})
-  }
-}
+``` javascript
+    function fancyAlert(arg) {
+      if(arg) {
+        $.facebox({div:'#foo'})
+      }
+    }
 ```
 
 ### Task Lists
 
-    - [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
-    - [x] list syntax required (any unordered or ordered list supported)
-    - [x] this is a complete item
-    - [ ] this is an incomplete item
+_Example_:
 
-Result:
+```
+- [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
+- [x] list syntax required (any unordered or ordered list supported)
+- [x] this is a complete item
+- [ ] this is an incomplete item
+```
+
+_Result_:
 
 - [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
 - [x] list syntax required (any unordered or ordered list supported)
@@ -275,14 +338,25 @@ Result:
 
 You can create tables by assembling a list of words and dividing them with hyphens `-` (for the first row), and then separating each column with a pipe `|`:
 
+_Example_:
+
+```
+First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
+```
+
+_Result_:
+
 First Header | Second Header
 ------------ | -------------
 Content from cell 1 | Content from cell 2
 Content in the first column | Content in the second column
 
-### Username @mentions
+### Username @mention
 
-Typing an `@` symbol, followed by a username, will notify that person to come and view the comment. This is called an “@mention”, because you’re mentioning the individual. You can also @mention teams within an organization.
+Typing an `@` symbol, followed by a username, will notify that person to come and view the comment. This is called an “`@mention`”, because you’re mentioning the individual. You can also `@mention` teams within an organization. For example @datahomelab.
 
 ## References
 
