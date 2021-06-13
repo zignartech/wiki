@@ -2,272 +2,272 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://docs.zignar.io/</loc>
-         <lastmod>2021-06-12</lastmod>
+         <lastmod>2021-06-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.zignar.io/IOTA-NECTAR/</loc>
-         <lastmod>2021-06-12</lastmod>
+         <lastmod>2021-06-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.zignar.io/IOTA-NECTAR/0.0%20Preface/</loc>
-         <lastmod>2021-06-12</lastmod>
+         <lastmod>2021-06-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.zignar.io/IOTA-NECTAR/1.1%20Introduction/</loc>
-         <lastmod>2021-06-12</lastmod>
+         <lastmod>2021-06-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.zignar.io/IOTA-NECTAR/2.2%20Message%20Layout/</loc>
-         <lastmod>2021-06-12</lastmod>
+         <lastmod>2021-06-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.zignar.io/IOTA-NECTAR/2.3%20Standard%20Payloads%20Layout/</loc>
-         <lastmod>2021-06-12</lastmod>
+         <lastmod>2021-06-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.zignar.io/IOTA-NECTAR/2.4%20Data%20flow/</loc>
-         <lastmod>2021-06-12</lastmod>
+         <lastmod>2021-06-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.zignar.io/IOTA-NECTAR/3.3%20Peer%20Discovery/</loc>
-         <lastmod>2021-06-12</lastmod>
+         <lastmod>2021-06-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.zignar.io/IOTA-NECTAR/3.4%20Neighbor%20Selection/</loc>
-         <lastmod>2021-06-12</lastmod>
+         <lastmod>2021-06-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.zignar.io/IOTA-NECTAR/4.1%20The%20Tangle/</loc>
-         <lastmod>2021-06-12</lastmod>
+         <lastmod>2021-06-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.zignar.io/IOTA-NECTAR/4.2%20Timestamps/</loc>
-         <lastmod>2021-06-12</lastmod>
+         <lastmod>2021-06-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.zignar.io/IOTA-NECTAR/4.3%20Tip%20Selection%20Algorithm/</loc>
-         <lastmod>2021-06-12</lastmod>
+         <lastmod>2021-06-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.zignar.io/IOTA-NECTAR/4.4%20Solidification/</loc>
-         <lastmod>2021-06-12</lastmod>
+         <lastmod>2021-06-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.zignar.io/IOTA-NECTAR/4.5%20Rate%20Control/</loc>
-         <lastmod>2021-06-12</lastmod>
+         <lastmod>2021-06-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.zignar.io/IOTA-NECTAR/4.6%20Congestion%20Control/</loc>
-         <lastmod>2021-06-12</lastmod>
+         <lastmod>2021-06-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.zignar.io/IOTA-NECTAR/4.7%20Markers/</loc>
-         <lastmod>2021-06-12</lastmod>
+         <lastmod>2021-06-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.zignar.io/IOTA-NECTAR/5.1%20UTXO/</loc>
-         <lastmod>2021-06-12</lastmod>
+         <lastmod>2021-06-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.zignar.io/IOTA-NECTAR/5.2%20Ledger%20State/</loc>
-         <lastmod>2021-06-12</lastmod>
+         <lastmod>2021-06-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.zignar.io/IOTA-NECTAR/5.3%20Mana/</loc>
-         <lastmod>2021-06-12</lastmod>
+         <lastmod>2021-06-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.zignar.io/IOTA-NECTAR/6.1%20Objects%20of%20Consensus/</loc>
-         <lastmod>2021-06-12</lastmod>
+         <lastmod>2021-06-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.zignar.io/IOTA-NECTAR/6.2%20Opinion%20Setting/</loc>
-         <lastmod>2021-06-12</lastmod>
+         <lastmod>2021-06-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.zignar.io/IOTA-NECTAR/6.3%20Fast%20Probabilistic%20Consensus/</loc>
-         <lastmod>2021-06-12</lastmod>
+         <lastmod>2021-06-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.zignar.io/IOTA-NECTAR/6.4%20Finalization/</loc>
-         <lastmod>2021-06-12</lastmod>
+         <lastmod>2021-06-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.zignar.io/IOTA-NECTAR/6.5%20dRNG/</loc>
-         <lastmod>2021-06-12</lastmod>
+         <lastmod>2021-06-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.zignar.io/JTBD/barriers/</loc>
-         <lastmod>2021-06-12</lastmod>
+         <lastmod>2021-06-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.zignar.io/JTBD/brainstorming/</loc>
-         <lastmod>2021-06-12</lastmod>
+         <lastmod>2021-06-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.zignar.io/JTBD/canvas/</loc>
-         <lastmod>2021-06-12</lastmod>
+         <lastmod>2021-06-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.zignar.io/JTBD/customer/</loc>
-         <lastmod>2021-06-12</lastmod>
+         <lastmod>2021-06-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.zignar.io/JTBD/framework/</loc>
-         <lastmod>2021-06-12</lastmod>
+         <lastmod>2021-06-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.zignar.io/JTBD/jtbd/</loc>
-         <lastmod>2021-06-12</lastmod>
+         <lastmod>2021-06-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.zignar.io/JTBD/management/</loc>
-         <lastmod>2021-06-12</lastmod>
+         <lastmod>2021-06-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.zignar.io/projects/</loc>
-         <lastmod>2021-06-12</lastmod>
+         <lastmod>2021-06-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.zignar.io/projects/Imak/</loc>
-         <lastmod>2021-06-12</lastmod>
+         <lastmod>2021-06-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.zignar.io/projects/ayni/</loc>
-         <lastmod>2021-06-12</lastmod>
+         <lastmod>2021-06-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.zignar.io/projects/cannor/</loc>
-         <lastmod>2021-06-12</lastmod>
+         <lastmod>2021-06-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.zignar.io/reference/</loc>
-         <lastmod>2021-06-12</lastmod>
+         <lastmod>2021-06-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.zignar.io/reference/abbreviations/</loc>
-         <lastmod>2021-06-12</lastmod>
+         <lastmod>2021-06-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.zignar.io/reference/awesome/</loc>
-         <lastmod>2021-06-12</lastmod>
+         <lastmod>2021-06-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.zignar.io/reference/buttons/</loc>
-         <lastmod>2021-06-12</lastmod>
+         <lastmod>2021-06-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.zignar.io/reference/code-blocks/</loc>
-         <lastmod>2021-06-12</lastmod>
+         <lastmod>2021-06-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.zignar.io/reference/content-tabs/</loc>
-         <lastmod>2021-06-12</lastmod>
+         <lastmod>2021-06-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.zignar.io/reference/data-tables/</loc>
-         <lastmod>2021-06-12</lastmod>
+         <lastmod>2021-06-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.zignar.io/reference/diagrams/</loc>
-         <lastmod>2021-06-12</lastmod>
+         <lastmod>2021-06-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.zignar.io/reference/footnotes/</loc>
-         <lastmod>2021-06-12</lastmod>
+         <lastmod>2021-06-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.zignar.io/reference/formatting/</loc>
-         <lastmod>2021-06-12</lastmod>
+         <lastmod>2021-06-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.zignar.io/reference/icons-emojis/</loc>
-         <lastmod>2021-06-12</lastmod>
+         <lastmod>2021-06-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.zignar.io/reference/images/</loc>
-         <lastmod>2021-06-12</lastmod>
+         <lastmod>2021-06-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.zignar.io/reference/lists/</loc>
-         <lastmod>2021-06-12</lastmod>
+         <lastmod>2021-06-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.zignar.io/reference/mathjax/</loc>
-         <lastmod>2021-06-12</lastmod>
+         <lastmod>2021-06-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.zignar.io/reference/pdf/</loc>
-         <lastmod>2021-06-12</lastmod>
+         <lastmod>2021-06-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.zignar.io/reference/progress/</loc>
-         <lastmod>2021-06-12</lastmod>
+         <lastmod>2021-06-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.zignar.io/reference/remarks/</loc>
-         <lastmod>2021-06-12</lastmod>
+         <lastmod>2021-06-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.zignar.io/reference/smartsymbols/</loc>
-         <lastmod>2021-06-12</lastmod>
+         <lastmod>2021-06-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.zignar.io/reference/stl/</loc>
-         <lastmod>2021-06-12</lastmod>
+         <lastmod>2021-06-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
