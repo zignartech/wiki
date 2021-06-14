@@ -1,4 +1,6 @@
 nav:
     - basic-markdown.md
     - ...
+    - Installation Guide: installation.md
     - Customizing Navigation: awesome.md
+    
