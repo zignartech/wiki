@@ -176,11 +176,6 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.zignar.io/reference/</loc>
-         <lastmod>2021-06-14</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://docs.zignar.io/reference/abbreviations/</loc>
          <lastmod>2021-06-14</lastmod>
          <changefreq>daily</changefreq>
@@ -237,6 +232,11 @@
     </url>
     <url>
          <loc>https://docs.zignar.io/reference/images/</loc>
+         <lastmod>2021-06-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.zignar.io/reference/installation/</loc>
          <lastmod>2021-06-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
