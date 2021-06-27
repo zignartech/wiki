@@ -1,3 +1,6 @@
+---
+template: overrides/main.html
+---
 # About
 
 These are the research specifications of the IOTA 2.0 protocol.  To put these in context, consult the [Preface](./0.0%20Preface.md).

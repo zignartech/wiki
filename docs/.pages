@@ -1,6 +1,5 @@
 nav:
     - Home: index.md
-    - IOTA Nectar Specs: IOTA-NECTAR
     - IOTA 2.0 Specs: IOTA-2.0
     - Reference: reference
     - JTBD
