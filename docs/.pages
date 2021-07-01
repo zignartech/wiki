@@ -1,5 +1,6 @@
 nav:
     - Home: index.md
     - IOTA 2.0 Specs: IOTA-2.0
+    - IoT Guide
     - Reference: reference
     - JTBD
