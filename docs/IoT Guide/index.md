@@ -71,7 +71,7 @@ In the long term, IIoT could more than pay for itself; however, many organizatio
 
 IIoT demands expertise in areas that traditionally haven’t been part of the manufacturing, logistics, or energy sectors. These new technologies require expertise in machine learning, data science, and real-time analytics.
 
-### What are the benefits of IIoT in manufacturing and beyond
+### What are the benefits of IIoT in manufacturing and beyond?
 
 According to **Microsoft’s IoT Signals report**, 56% of companies adopt IIoT solutions for operations optimization, 47% cite workforce productivity as their primary use case, and 44% said that safety and security were the driving force behind adoption.
 
