@@ -4,7 +4,7 @@ template: overrides/main.html
 
 # WHAT IS THE INDUSTRIAL INTERNET of THINGS (IIoT)?
 
-This is the first of a series of articles about the Industrial Internet of Things, and the Internet of Things in general. It is intended to provide and informational backgrdound for decision makers, market movers and end users in general.
+This is the first of a series of articles about the Industrial Internet of Things, and the Internet of Things in general. It is intended to provide and informational background for decision makers, market movers and end users in general.
 
 You’re probably familiar with the Internet of Things (IoT), at least at a basic level. We’re talking smart refrigerators, fitness trackers, and those home security cameras you can monitor from your phone.
 
