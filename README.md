@@ -7,11 +7,8 @@
 We can only keep contributing on open source basis, with your support.
 Help us with donations, so our team can spend full-time to the ecosystem.
 
-> Donation pool for the Development Team (IOTA)
-- `iota1qpjlty2fu9drlpahxqaqz9nsyg7f29nzfcdh6ugpcyqs2h2wjgrp7qywvlw`
-
-> Donation pool for Hardware and Tools (IOTA)
-- `iota1qz978pfse7tq0jtd44h8n3ssznthfj2wka89gg2cwey4lmkfktr0z6g4vg3`
+> Donation pool for the Zignar Technologies Team (IOTA)
+- `iota1qp4d7j0s8t0p8tuy2acsu7y3xk3asz07w23pw7gu5cds2q6udqav5k5lzk2`
 
 <!-- 
     > PayPal donations:
